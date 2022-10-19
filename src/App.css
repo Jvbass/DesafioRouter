@@ -1,0 +1,163 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 9.5rem);
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  background-color: var(--secondary);
+  padding: .25rem 3rem;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--light);
+}
+header nav {
+  height: 2rem;
+}
+
+header .logo img {
+  height: 3rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+header ul li a{
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+footer {
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .socials {
+  display: flex;
+  align-items: center;
+}
+
+footer .socials .social-link {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .socials .social-link span {
+  padding: .25rem;
+}
+
+.name-dev {
+  margin-right: 1rem;
+}
+
+.hero {
+  background: url(https://images.pexels.com/photos/1756061/pexels-photo-1756061.jpeg);
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height: calc(100vh - 9.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-inn {
+  background:  linear-gradient(rgba(197, 174, 168, 0.788), #3a3011a4);
+  color: var(--light);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  border: 2rem;
+}
+
+.hero-inn img {
+  max-width: 8rem;
+}
+
+.hero-inn h1{
+  color: var(--dark);
+  font-weight: 600;
+}
+
+.hero-inn p {
+color: var(--light);
+font-weight: 400;
+font-style: italic;
+}
+
+.notfound{
+  padding: 2rem 0;
+  background-color:  var(--primary);
+  color: var(--light);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - 9.5rem);
+}
+
+.notfound h2 {
+  font-size: 3.2rem;
+}
+.notfound p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #a51e2c;
+}
+
+.notfound span{
+  font-size: 4rem;
+}
+
+fieldset {
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  margin: 0 1rem;
+}
+
+fieldset form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+form label {
+  margin-bottom: .3rem;
+}
+
+form input, textarea {
+  margin-bottom: 1.5rem;
+  padding: .3rem;
+  font-size: 1rem;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: .25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 8rem;
+  color: var(--light);
+  background-color: var(--disabled);
+}
